@@ -1,0 +1,46 @@
+@primary-color: #6a0dad;
+@text-color: #333;
+
+body {
+  font-family: Arial, sans-serif;
+  color: @text-color;
+  margin: 0;
+  padding: 0;
+}
+
+#loader-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: white;
+}
+
+header {
+  background-color: @primary-color;
+  color: white;
+  text-align: center;
+  padding: 20px;
+
+  .profile-container {
+    text-align: center;
+  }
+
+  .profile-img {
+    border-radius: 50%;
+    max-width: 150px;
+  }
+}
+
+.bio, .contact {
+  margin: 20px;
+  padding: 10px;
+}
+
+footer {
+  background-color: #f0f0f0;
+  text-align: center;
+  padding: 10px;
+  font-size: 0.9em;
+  color: @text-color;
+}
